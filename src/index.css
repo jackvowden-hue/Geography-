@@ -1,0 +1,192 @@
+/* ========================================
+   GeoRevise — Light Premium Design System
+   Red / White / Blue Energy
+   ======================================== */
+
+:root {
+  /* Core Palette — Light with red/blue energy */
+  --bg: #F8F9FC;
+  --bg-raised: #FFFFFF;
+  --fg: #1a1a2e;
+  --fg-muted: #475569;
+  --card: #FFFFFF;
+  --muted: #F1F5F9;
+  --muted-fg: #94A3B8;
+  --accent: #DC2626;
+  --accent-hover: #B91C1C;
+  --accent-subtle: rgba(220, 38, 38, 0.08);
+  --accent-secondary: #2563EB;
+  --accent-secondary-hover: #1D4ED8;
+  --accent-secondary-subtle: rgba(37, 99, 235, 0.08);
+  --border: #E2E8F0;
+  --border-hover: #CBD5E1;
+  --input: #FFFFFF;
+  --ring: #DC2626;
+  --destructive: #DC2626;
+  --warning: #F59E0B;
+  --success: #16A34A;
+
+  /* Gradient accents */
+  --gradient-primary: linear-gradient(135deg, #DC2626, #EF4444);
+  --gradient-blue: linear-gradient(135deg, #2563EB, #3B82F6);
+  --gradient-hero: linear-gradient(135deg, #DC2626, #2563EB);
+  --gradient-warm: linear-gradient(135deg, #DC2626, #F59E0B);
+
+  /* Typography */
+  --font-heading: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+
+  /* Spacing scale (4px base) */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+
+  /* Radii */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+  --radius-full: 9999px;
+
+  /* Shadows — colored energy */
+  --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.06), 0 1px 2px rgba(15, 23, 42, 0.04);
+  --shadow-md: 0 4px 12px rgba(15, 23, 42, 0.08), 0 2px 4px rgba(15, 23, 42, 0.04);
+  --shadow-lg: 0 8px 24px rgba(15, 23, 42, 0.10), 0 4px 8px rgba(15, 23, 42, 0.06);
+  --shadow-xl: 0 16px 48px rgba(15, 23, 42, 0.12), 0 8px 16px rgba(15, 23, 42, 0.06);
+  --shadow-red: 0 4px 16px rgba(220, 38, 38, 0.15), 0 2px 4px rgba(220, 38, 38, 0.08);
+  --shadow-blue: 0 4px 16px rgba(37, 99, 235, 0.15), 0 2px 4px rgba(37, 99, 235, 0.08);
+  --shadow-glow-red: 0 0 20px rgba(220, 38, 38, 0.20);
+  --shadow-glow-blue: 0 0 20px rgba(37, 99, 235, 0.20);
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 200ms ease;
+  --transition-slow: 300ms ease;
+
+  /* Topic color (overridden per-topic by JS) */
+  --topic-color: var(--accent);
+}
+
+/* Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--bg);
+  color: var(--fg);
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: -0.01em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+  color: var(--fg);
+}
+
+/* Links */
+a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+a:hover {
+  color: var(--accent-hover);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-hover);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--muted-fg);
+}
+
+/* Selection */
+::selection {
+  background: rgba(220, 38, 38, 0.15);
+  color: var(--fg);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(8px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    transform: translateY(16px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes glowPulse {
+  0%, 100% { box-shadow: var(--shadow-glow-red); }
+  50% { box-shadow: 0 0 30px rgba(220, 38, 38, 0.30); }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}
