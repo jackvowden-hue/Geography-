@@ -5,7 +5,8 @@ import {
   BookOpen, Brain, Timer, Zap, ChevronRight, ChevronLeft, X, Check, RotateCcw,
   Trophy, Target, Menu, Home, ArrowRight, Clock, Star, TrendingUp,
   ChevronDown, ChevronUp, Search, Layers, GraduationCap, BarChart3, PlayCircle,
-  PauseCircle, RefreshCw, Award, FileText, Eye, EyeOff, ExternalLink, Youtube, Video
+  PauseCircle, RefreshCw, Award, FileText, Eye, EyeOff, ExternalLink, Youtube, Video,
+  Moon, Sun
 } from 'lucide-react';
 import HomeView from './components/HomeView';
 import TopicHub from './components/TopicHub';
@@ -225,6 +226,12 @@ export default function App() {
   const [searchResults, setSearchResults] = useState([]);
   const [showSearch, setShowSearch] = useState(false);
   const [xpToasts, setXpToasts] = useState([]);
+  const [darkMode, setDarkMode] = useState(() => localStorage.getItem('geo-dark-mode') === 'true');
+
+  useEffect(() => {
+    document.documentElement.dataset.theme = darkMode ? 'dark' : 'light';
+    localStorage.setItem('geo-dark-mode', darkMode);
+  }, [darkMode]);
 
   const showXPToast = useCallback((amount, reason, achievements = []) => {
     const id = Date.now();
@@ -293,6 +300,9 @@ export default function App() {
           </div>
 
           <div className="nav-right">
+            <button className="nav-theme-btn" onClick={() => setDarkMode(d => !d)} aria-label="Toggle dark mode">
+              {darkMode ? <Sun size={18} /> : <Moon size={18} />}
+            </button>
             <button className="nav-search-btn" onClick={() => setShowSearch(!showSearch)}>
               <Search size={18} />
             </button>

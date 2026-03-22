@@ -167,15 +167,15 @@ function ConfettiEffect() {
 // ============================================================
 // SCREEN GENERATION
 // ============================================================
-function generateScreens(topic) {
+function generateScreens(topic, sections) {
   const screens = [];
   let globalContentCount = 0;
   const interactiveTypes = ['true-false', 'match-terms', 'sort-order', 'fill-blank'];
   let interactiveRotation = 0;
 
-  topic.sections.forEach((section, sectionIdx) => {
+  sections.forEach((section, sectionIdx) => {
     // Section intro
-    screens.push({ type: 'section-intro', section, sectionIdx, totalSections: topic.sections.length });
+    screens.push({ type: 'section-intro', section, sectionIdx, totalSections: sections.length });
 
     // Key concept screens for top 3 key terms (interspersed)
     const topTerms = section.keyTerms.slice(0, 4);
@@ -363,6 +363,89 @@ function generateScreens(topic) {
 
   screens.push({ type: 'topic-complete' });
   return screens;
+}
+
+// ============================================================
+// SECTION PICKER SCREEN
+// ============================================================
+function SectionPickerScreen({ topic, onStart, topicColor }) {
+  const [selected, setSelected] = useState(new Set());
+
+  const toggleSection = (idx) => {
+    setSelected(prev => {
+      const next = new Set(prev);
+      if (next.has(idx)) {
+        next.delete(idx);
+      } else {
+        next.add(idx);
+      }
+      return next;
+    });
+  };
+
+  const selectAll = () => {
+    if (selected.size === topic.sections.length) {
+      setSelected(new Set());
+    } else {
+      setSelected(new Set(topic.sections.map((_, i) => i)));
+    }
+  };
+
+  const handleStart = () => {
+    const chosenSections = topic.sections.filter((_, i) => selected.has(i));
+    onStart(chosenSections);
+  };
+
+  const allSelected = selected.size === topic.sections.length;
+
+  return (
+    <div className="learn-picker" style={{ '--topic-color': topicColor }}>
+      <div className="learn-picker-header">
+        {topic.icon && <span className="learn-picker-icon">{topic.icon}</span>}
+        <h2 className="learn-picker-title">{topic.title}</h2>
+        <p className="learn-picker-subtitle">Choose which sections to study</p>
+      </div>
+
+      <button
+        className={`learn-picker-all-btn ${allSelected ? 'active' : ''}`}
+        onClick={selectAll}
+      >
+        {allSelected ? <Check size={16} /> : <Layers size={16} />}
+        {allSelected ? 'Deselect All' : 'Study All Sections'}
+      </button>
+
+      <div className="learn-picker-sections">
+        {topic.sections.map((section, idx) => {
+          const isSelected = selected.has(idx);
+          return (
+            <button
+              key={idx}
+              className={`learn-picker-section ${isSelected ? 'learn-picker-section-selected' : ''}`}
+              onClick={() => toggleSection(idx)}
+            >
+              <div className="learn-picker-section-number" style={{ background: isSelected ? topicColor : undefined }}>
+                {isSelected ? <Check size={14} /> : idx + 1}
+              </div>
+              <div className="learn-picker-section-info">
+                <span className="learn-picker-section-title">{section.title}</span>
+                <span className="learn-picker-section-meta">
+                  {section.notes.length} notes &middot; {section.keyTerms.length} key terms
+                </span>
+              </div>
+            </button>
+          );
+        })}
+      </div>
+
+      <button
+        className="btn btn-primary btn-lg learn-picker-start-btn"
+        onClick={handleStart}
+        disabled={selected.size === 0}
+      >
+        Start Learning <ArrowRight size={18} />
+      </button>
+    </div>
+  );
 }
 
 // ============================================================
@@ -1050,7 +1133,13 @@ function TopicCompleteScreen({ topic, totalScore, onFinish, topicColor }) {
 export default function LearnView({ topic, navigateTo, showXPToast }) {
   const topicColor = topic.color || '#10b981';
 
-  const screens = useMemo(() => generateScreens(topic), [topic]);
+  const [mode, setMode] = useState('picker'); // 'picker' or 'learning'
+  const [selectedSections, setSelectedSections] = useState(null);
+
+  const screens = useMemo(() => {
+    if (!selectedSections) return [];
+    return generateScreens(topic, selectedSections);
+  }, [topic, selectedSections]);
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [sectionScores, setSectionScores] = useState({});
@@ -1126,6 +1215,22 @@ export default function LearnView({ topic, navigateTo, showXPToast }) {
     navigateTo('topicHub', topic);
   }, [totalXP, topic, showXPToast, navigateTo]);
 
+  const handleBackToPicker = useCallback(() => {
+    setMode('picker');
+    setSelectedSections(null);
+    setCurrentIndex(0);
+    setSectionScores({});
+    setTotalXP(0);
+  }, []);
+
+  const handleStartLearning = useCallback((sections) => {
+    setSelectedSections(sections);
+    setCurrentIndex(0);
+    setSectionScores({});
+    setTotalXP(0);
+    setMode('learning');
+  }, []);
+
   const totalScore = useMemo(() => {
     let correct = 0, total = 0, xp = 0;
     Object.values(sectionScores).forEach(s => {
@@ -1136,13 +1241,40 @@ export default function LearnView({ topic, navigateTo, showXPToast }) {
     return { correct, total, xp };
   }, [sectionScores]);
 
-  const currentSectionName = currentScreen.section ? currentScreen.section.title : '';
-  const progressPercent = ((currentIndex + 1) / screens.length) * 100;
+  // Picker mode
+  if (mode === 'picker') {
+    return (
+      <div className="learn-view" style={{ '--topic-color': topicColor }}>
+        <div className="learn-header">
+          <button className="learn-back-btn" onClick={() => navigateTo('topicHub', topic)}>
+            <X size={20} />
+          </button>
+          <div className="learn-header-info">
+            <span className="learn-header-topic">{topic.title}</span>
+            <span className="learn-header-section">Select Sections</span>
+          </div>
+          <div className="learn-header-right" />
+        </div>
+        <div className="learn-screen-container">
+          <SectionPickerScreen
+            topic={topic}
+            onStart={handleStartLearning}
+            topicColor={topicColor}
+          />
+        </div>
+      </div>
+    );
+  }
 
-  // Count total notes across all sections
-  const totalNotes = topic.sections.reduce((sum, s) => sum + s.notes.length, 0);
+  // Learning mode
+  const currentSectionName = currentScreen && currentScreen.section ? currentScreen.section.title : '';
+  const progressPercent = screens.length > 0 ? ((currentIndex + 1) / screens.length) * 100 : 0;
+
+  // Count total notes across selected sections
+  const totalNotes = selectedSections ? selectedSections.reduce((sum, s) => sum + s.notes.length, 0) : 0;
 
   const renderScreen = () => {
+    if (!currentScreen) return null;
     const key = `screen-${currentIndex}`;
 
     switch (currentScreen.type) {
@@ -1218,7 +1350,7 @@ export default function LearnView({ topic, navigateTo, showXPToast }) {
 
       {/* Header */}
       <div className="learn-header">
-        <button className="learn-back-btn" onClick={() => navigateTo('home')}>
+        <button className="learn-back-btn" onClick={handleBackToPicker}>
           <X size={20} />
         </button>
         <div className="learn-header-info">
