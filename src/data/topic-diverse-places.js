@@ -106,6 +106,42 @@ export const topicDiversePlaces = {
         'UK immigration policy timeline: 1948 British Nationality Act (Commonwealth citizens\' right to settle), 1962 and 1968 Commonwealth Immigrants Acts (restricting entry), 1971 Immigration Act (work permits), 2004 EU A8 accession (free movement), 2016 Brexit referendum, 2021 points-based immigration system. Each policy shift has reshaped where migrants come from and who can settle.',
         'Gentrification and population change: Gentrification alters the class, age, and ethnic composition of neighbourhoods. In Shoreditch (Hackney), the arrival of tech firms and creative industries transformed a deprived area — White British professionals displaced Bangladeshi communities, average house prices rose from \u00a3150,000 (2000) to \u00a3600,000+ (2020), and independent shops were replaced by artisan coffee shops and galleries.',
         'Evaluation point: Population structures are not static — they are constantly reshaped by economic change, migration policy, housing markets, and social trends. The exam requires understanding how these factors interact at different scales (local, national, global) and how they create both opportunities and tensions in diverse places.',
+
+        '--- COMPARATIVE POPULATION STATS (Human Bible) ---',
+        'Inner London — Newham: Population 352,000, density 8,762/km², average age 31, fertility rate 76 per 1,000. Dominated by 21-40 year olds. Population has been the fastest growing in the UK, rising by almost 25%. Non-UK born population grew by 72,000 and 55% of the population were born outside of the UK.',
+        'Outer London — Kingston-upon-Thames: Population 175,000, density 4,400/km², average age 37, fertility rate 57 per 1,000. Amongst the wealthiest areas in London with high-income couples who left central London to raise families. 12 trains per hour into London. Overseas migrants make up just 20% of the population (mainly Indian, Poles and Irish).',
+        'Rural/Urban Fringe — Winchester: Population 124,000, density 2,300/km², average age 48, fertility rate 35 per 1,000. Medieval market town 65 miles from London (1hr 20min by train). Population almost entirely UK born. Provides access to the New Forest and the coast as well as relatively quick access to London.',
+        'Rural — North Yorkshire: Population 602,000, density 68/km², average age 40, fertility rate 37 per 1,000. Predominantly rural county with remote upland areas of the Pennines and North Yorkshire Moors, both losing population (mainly younger people). Ageing population due to popularity with retirees. Small amount of international migration.',
+
+        '--- LONDON IMMIGRATION HISTORY (Human Bible) ---',
+        'London immigration timeline: 1656 — Jewish people allowed to resettle in London for the first time since 1290. Mid-18th century — significant black population and smaller south Asian community developed. Early/mid-19th century — infrastructure development attracted many nationalities, particularly Irish, plus Italian quarter in Clerkenwell. Late-19th century — East End became home to Jewish refugees from Eastern Europe and a small Chinese community.',
+        'Factors creating social clustering in London: more recent migrants tend to live in areas with high ethnic minority concentration; those not fluent in English are more likely to live in ethnic minority areas; highest social classes live in areas with lower ethnic minority concentration; higher qualifications associated with lower ethnic minority concentration; more paid workers in household means less likely to live in ethnic minority areas.',
+        'Ethnic villages: show clear evidence of groups through shops, places of worship, schools, cinemas, newspapers, social facilities and street presence. E.g. German school in Richmond and nearby German bakery as key reference points; French Lycée in Kensington (UK has 2nd largest expatriate French population after USA).',
+
+        '--- SOUTH ASIANS IN LONDON (Human Bible) ---',
+        'South Asians in London: 35% of all Asians in the UK live in the London area. 54% of Bangladeshis live in London, 41% of Indians but only 19% of Pakistanis.',
+        'South Asian clustering: Indian communities concentrated in Ealing, Brent and Harrow; Pakistani communities in Walthamstow, Newham and Ealing; Bangladeshis in Tower Hamlets, Newham and Camden. London has the largest concentration of Indians in the country (437,000).',
+        'Southall and surrounding districts contain the largest Sikh community in the world outside the Punjab in India. Three weekly Punjabi newspapers are published here.',
+        'More than half of all Bangladeshis in the UK live in London. The unemployment rate for Bangladeshis is considerably higher than any other group in London.',
+
+        '--- JERSEY NATIONAL/REGIONAL INFLUENCES (Human Bible) ---',
+        'Jersey historical immigration: Large-scale immigration began with the introduction of steamships from 1823. By 1840, up to 5,000 English people (mostly half-pay officers and families) had settled. By the late 19th century, wealthy British families attracted by no income tax established St Helier as predominantly English-speaking.',
+        'Jersey agricultural labour: Seasonal farm work depended on Bretons and mainland Normans from the 19th century. After liberation in 1945, agriculture workers were mostly recruited from the UK as Normandy and Brittany needed domestic labour for post-war reconstruction.',
+        'Jersey population stability: Until the 1960s, population had been stable at around 60,000 for decades. Economic growth spurred immigration, raising the population to 110,000. Portuguese workers arrived from the 1960s, initially in seasonal agriculture and tourism.',
+        'Jersey international links: Jersey is one of the most internationally outward-looking places in Europe. Its offshore tax status attracts global finance and accounting firms. Jersey has a strong link to Madeira — many from this Portuguese island arrived in the 1960s and maintained long family connections.',
+        'Jersey population pyramid: Has two distinct peaks — a group in their late 20s to early 30s (finance workers) and a retired population of 65+, reflecting the dual attraction of finance employment and tax-free retirement.',
+        'Jersey\'s shift from tourism to finance: The finance industry became the dominant employer after a shift away from tourism in the 1980s, taking advantage of the global spread of banking and international taxation.',
+
+        '--- NEWHAM NATIONAL/REGIONAL INFLUENCES (Human Bible) ---',
+        'Newham name origin: "Newham" was devised in the 1960s when the area fell under London council control. "Ham" or "Hamme" means marsh in Anglo-Saxon, hence West Ham football team.',
+        'Newham historical diversity: As far back as Roman and Medieval London, this area has been docks and welcomed travellers and migrants. Newham has had a large Asian community for decades — more than half of Newham\'s Upton and Kensington wards were of ethnic minority origin by 1981.',
+        'Newham health deprivation: Newham had the lowest life expectancy and the highest rate of heart disease of all London boroughs, consistently ranking amongst the poorest and most deprived areas.',
+        'Newham international property investment: The influence of London\'s international property investment from China and the Middle East has cast a shadow over the area, with some seeing a slow change driven by property investment rather than community needs.',
+        'Newham post-WW2 migration: Following the bombing of the docks in WW2 and the decline of the area, relatively affordable housing attracted waves of first and second-generation migrants from multiple countries.',
+
+        '--- LONDON 19TH CENTURY IMMIGRATION DETAIL (Human Bible) ---',
+        'London 19th century diversity: Early/mid-19th century infrastructure development attracted many nationalities, particularly from Ireland. Smaller communities included the Italian quarter in Clerkenwell and the cosmopolitan area around the port.',
+        'London late 19th century: The East End became home to Jewish refugees from Eastern Europe and a small Chinese community. Many black and Asian people entered Britain freely as subjects of the British Empire. German and Italian populations also increased as the capital\'s economy expanded.',
       ],
     },
 
@@ -191,6 +227,17 @@ export const topicDiversePlaces = {
         'Edward Relph\'s concept of "placelessness" (1976): The increasing homogenisation of places through chain stores, identical housing estates, and standardised architecture erodes distinctive local character. High streets dominated by the same chains (Costa, Greggs, Tesco Express) look identical across the UK. This links to globalisation and cultural homogenisation debates.',
         'Yi-Fu Tuan\'s concept of "topophilia" (1974): The affective bond between people and place — the emotional attachment that develops through lived experience. Residents of even the most deprived areas may feel strong topophilia through community networks, memories, and familiarity. This explains why people resist displacement even when offered "better" housing elsewhere.',
         'Evaluation point: Perception of place is always partial and contested. No single data source (quantitative or qualitative) captures the full picture. The exam rewards candidates who can critically evaluate how different sources of evidence construct different narratives about the same place, and who recognise that insider and outsider perspectives are both valid but incomplete.',
+
+        '--- MEDELLIN ADDITIONAL DETAIL (Human Bible) ---',
+        'Medellín in 2016 won the Lee Kuan Yew World City Prize, described as a sort of "urbanism Nobel prize", granted because of the city\'s transformation into an outstanding liveable city.',
+        'Medellín still has dangerous areas and few western tourists venture out after dark, showing that negative perception persists alongside the positive transformation narrative.',
+
+        '--- COTSWOLDS ADDITIONAL DETAIL (Human Bible) ---',
+        'Cotswolds education cuts: The cut to public services has seen a 40% decline in funding to primary/secondary schools. This led to creation of large 1,000+ pupil secondary schools and academies. The middle school system (5-12 years old) was closed, breaking community ties of children attending a "local" school.',
+        'Cotswolds healthcare detail: Many villages have only one GP surgery once a week, normally open for just a few hours. Long-term "in home" care for the elderly is expensive, and many are moved from their homes to care homes by the council due to the cost of outreach workers.',
+        'Cotswolds social deprivation: Teenagers have very limited options — few shops or facilities exist, and even local towns lack transport links to attend clubs, bars, and music venues. Investment is limited and budgets tend not to cover maintenance of skate parks and playgrounds long-term.',
+        'Cotswolds economy detail: Those lacking high-level skills rely on farming and tourism, both of which provide low-wage and seasonal employment, creating income instability.',
+        'Cotswolds counter-urbanisation detail: With the ability of people to work remotely, the Cotswolds has become very desirable. New/affordable home projects are contested by wealthy homeowners who occupy villages, blocking development.',
       ],
     },
 
@@ -295,6 +342,41 @@ export const topicDiversePlaces = {
         'Deprivation is multi-dimensional: The IMD captures income, employment, education, health, crime, housing, and environment. A place can score well on one domain but poorly on others — Newham has good transport links but high overcrowding; the Cotswolds has beautiful environment but poor access to services.',
         'Housing as a driver of inequality: UK house price to earnings ratio averaged 8.3:1 nationally (2022) but exceeded 12:1 in London. The "housing ladder" has become inaccessible for many young people, particularly in diverse urban areas where demand is highest. Social housing stock fell by 1 million units between 1980-2020 under Right to Buy.',
         'Evaluation point: Cultural tensions in diverse places are not inevitable — they are shaped by policy choices (housing, education, integration strategies), media narratives, and economic conditions. Places like Slough (genuinely mixed, no enclaves) show integration can work, while the Casey Review\'s findings show it is not guaranteed. The exam rewards nuanced analysis of why some places integrate successfully while others experience segregation.',
+
+        '--- ECONOMIC SEGREGATION IN LONDON (Human Bible) ---',
+        'London property investment: Average house prices have risen by 11% every year since 1996. The pound holds its value more consistently than some other currencies (e.g. Russian Rouble), making London attractive for overseas investment.',
+        'London as a capital-raising centre: For many investors worldwide, having a base in London offers financial respectability. The UK grants 3-year visas to those investing over £1 million in government bonds. Investors can buy residency for £10 million after 2 years.',
+        'Investor visa statistics: Between 2008 and 2013, 433 investor visas were offered to Russians and 419 to Chinese nationals seeking UK residency through investment.',
+        'Russian property buyers in London: One-third of Russians buying property in the UK do so to educate their children. 8% of pupils at HMC (Headmasters\' Conference) schools were Russian, equating to approximately £60 million in school fees.',
+
+        '--- EAST LONDON REGENERATION TIMELINE (Human Bible) ---',
+        'East London docks history: London and the Thames is tidal and technically on the sea. Before large container ships, boats would sail up the Thames and dock in the East End, developing the area as working-class and relatively poor.',
+        'East London WW2 and rebuilding: The docks became a prime target during WW2 and were bombed extensively. Large tower blocks and estates were built quickly to house those displaced.',
+        'East London 1960s urban design: A new type of urbanism — high-rise "streets in the sky" — took over urban design. Many living in Victorian slums in the dockland area were rehoused in large tower blocks.',
+        'East London regeneration timeline: 1980s — London Docklands Development Corporation; 2000 — O2/Millennium Dome; 2012 — Summer Olympic Games. Each brought investment but also controversy over who benefited.',
+        'Post-Olympics property boom: The success of the 2012 Games put Newham on the map as an "up and coming" property hotspot, while simultaneously the UK pursued austerity policy following the 2009 financial crisis.',
+
+        '--- 2012 OLYMPICS ADDITIONAL DETAIL (Human Bible) ---',
+        'Olympic construction recycling: 200 buildings were demolished, rubble was used for foundations in the Olympic Park, and metals were recycled — an example of sustainable construction practices.',
+        'Olympic transport legacy: Stratford received a new tube station connection, making it second only to King\'s Cross as the most connected part of London.',
+        'Olympic economic estimates: Lloyds TSB estimated the Olympics would generate £10 billion in extra income for the UK economy beyond the initial £9 billion investment.',
+        'Olympic environmental detail: The area was landscaped with 4,000 trees and 74,000 plants with wildlife habitat areas, especially wetland environments (300,000 wetland plants), to boost biodiversity and ecology of the Lea Valley and provide a wildlife corridor from Hackney Marshes to the Thames.',
+        'Olympic housing letting agents: During the Olympic period, letting agents increased rents dramatically, worsening housing deprivation in the area.',
+        'Olympic soil remediation: 2 million tonnes of soil contaminated by toxic industrial chemicals and landfill were cleaned by 2008 in a "soil hospital" and then re-used in the landscaping of the Olympic Park.',
+
+        '--- CARPENTER\'S ESTATE ADDITIONAL DETAIL (Human Bible) ---',
+        'Carpenter\'s Estate context: The 2009 financial crisis led to 40% budget cuts for Newham council. The council looked to cover the shortfall by selling council housing areas to private property developers, including the Carpenters Estate.',
+        'Carpenter\'s Estate impact: This left many low-income households in Newham facing eviction and the prospect of moving out of the city entirely.',
+        'Overseas property purchases: Two-thirds of private homes/flats purchased in post-Olympic developments were made by overseas buyers, many as investment properties not intended for occupation.',
+
+        '--- CULTURAL AND DEMOGRAPHIC ISSUES IN LONDON (Human Bible) ---',
+        'Economic inactivity by ethnicity: In 2020, women in Bangladeshi (54%) and Pakistani (52%) families had the highest levels of economic inactivity amongst all adults, because of traditional family roles.',
+        'Low pay and ethnicity: 37% of employed men worked in low-skilled, low-paid occupations in 2020. This rose to 50% for male Pakistani, Black African, and Bangladeshi ethnicities, who commonly worked in restaurants and hotels.',
+        'Female low-skilled employment: 59% of employed women were in low-skilled jobs in 2020, particularly Bangladeshi women (67%) and Caribbean women (66%), commonly employed in the NHS and social care.',
+        'Ethnic minority poverty: About 40% of people from ethnic minorities live in low-income households, which is twice the poverty rate of White British people. While only 10% of White British are in low-income employment, this rises to 65% for Bangladeshis, 50% for Pakistanis, and 30% for Black Africans.',
+        'London housing costs and poverty: Between 1995 and 2020, general inflation in the UK rose by 73%, but house prices in many parts of London rose by up to 1,000%. Households in London now spend up to 60% of monthly income on housing, compared with the UK average of 25%.',
+        'London poverty after housing: After housing costs are deducted, London now has the UK\'s highest poverty rates. Many people can no longer afford to live in large areas of London, worsened since 2010 by government cuts to housing benefits.',
+        'Regeneration theory: Since the 1980s, the UK government has increasingly used regeneration projects to deliver improvements in wealth. The theory is that projects create jobs in initial rebuilding and then secondary jobs as more people are attracted to the regenerated area.',
       ],
     },
 
@@ -406,6 +488,28 @@ export const topicDiversePlaces = {
         'Rural regeneration challenges: The Cotswolds and Cornwall case studies show that rural regeneration faces distinct challenges — distance from markets, seasonal economies, ageing populations, poor digital connectivity, and the tension between conservation (AONB/National Park designations) and development. The loss of EU Convergence Funding post-Brexit removed a critical funding source for Cornwall.',
         'Smart growth and sustainable communities: The concept of creating mixed-use, walkable, transit-oriented communities that reduce car dependency and social isolation. Applied in some UK regeneration schemes but often undermined by car-dependent suburban design, NIMBYism, and developer resistance to affordable housing requirements.',
         'Evaluation point for 20-mark essays: Successful management of diverse places requires balancing competing stakeholder interests — developers want profit, councils need tax revenue and affordable housing, existing residents want stability, newcomers want opportunity, and environmental groups want sustainability. No strategy satisfies all stakeholders equally, and the exam rewards candidates who can evaluate trade-offs with specific evidence from case studies.',
+
+        '--- MANAGING CULTURAL ISSUES IN LONDON (Human Bible) ---',
+        'Discover Children\'s Forum in Stratford: A group of 21 children aged 4-11 who meet monthly and in school holidays. They have been involved in public art projects and are taking part in consultation processes about the new 73-hectare Stratford City Development.',
+        'Asians in Football project: Although football is popular amongst Asian children, ethnic minorities make up only 1% of football audiences. In Tower Hamlets the project provides football coaching to 350 girls, mostly from local Bangladeshi communities.',
+        'London Muslim Centre: Part of the East London Mosque. Provides Islamic education and works with the local authority to improve school attendance and attainment. Focuses on health promotion, community cohesion, and tackling unemployment.',
+        'Rich Mix cultural centre: Set up to create a bridge between the local population and the new centre of creative industries in nearby Hoxton. Aims to open up the arts to new audiences, create an inspiring venue for different communities, and nurture talents of disadvantaged young people.',
+        'East End Fair Finance: Set up by a former Grameen Bank volunteer through a partnership of community organisations, banks, and local housing associations. Provides loans for people in East London excluded by mainstream banks as poor credit risks, preventing people being forced into deals with doorstep loan sharks.',
+        'TELCO Living Wage Campaign: An alliance of unions and faith groups aiming to improve working conditions amongst the public sector and its contractors. Has succeeded in forcing big financial institutions and public authorities to pay at higher levels than the minimum wage.',
+
+        '--- SLOUGH STAKEHOLDERS DETAIL (Human Bible) ---',
+        'Slough stakeholder — Local Government: Slough Borough Council decides priorities for the area, including what land should be used for. It is a key player in the town\'s future, aiming to improve housing, employment, and environment.',
+        'Slough stakeholder — Companies: Enticed by the Slough Regeneration Partnership after the council and building firm agreed to regenerate the town. Slough\'s proximity to Heathrow has led many TNCs to establish head offices there.',
+        'Slough stakeholder — Environmentalists: The council is responsible for community health by improving air quality and safety but is challenged due to poor air quality caused by the M4 and Heathrow Airport — sources largely outside local control.',
+        'Slough stakeholder — Charities: Groups such as Aik Saath work with multi-ethnic communities to improve schools and workplaces, addressing inter-community tensions at grassroots level.',
+        'Slough stakeholder — Housing Association: The biggest challenge in Slough is lack of affordable rental housing, so housing associations work with the council and developers to help provide this.',
+
+        '--- SLOUGH REDEVELOPMENT ADDITIONAL DETAIL (Human Bible) ---',
+        'Langley Business Centre detail: Plans include demolishing and redeveloping parts of the 6.5-hectare site on Station Road. Split into two sections — Plot A (facing Station Road) has 60 new homes plus retail, pubs, takeaways, and an energy centre (100% affordable). Plot B contains the enormous data centre taking up 93,000 sqm with 150 car parking spaces.',
+        'Langley energy centre: The proposed energy centre could help the council become a "pioneering UK council" with district heating system technology to address climate change.',
+        'Stoke Wharf development detail: Seeks to rejuvenate the former Travis Perkins builder\'s yard alongside the canal in the Stoke Wharf/Canal Basin area. Flats will be a mix of one/two-bedroom apartments plus three-bed mews houses, townhouses, and studio flats. Improvements to canal-side public realm and nearby Bowyer Park are also proposed.',
+        'Stoke Wharf density change: Originally planned for 240 homes with shops, cafes, and a community hub, but increased to 312 homes to deal with "visibility challenges" of paying for demolition costs and buying out Travis Perkins, the landowners.',
+        'Slough council sports provision: A new sports stadium for Slough Town Football Club is planned, with pitches, a multi-use games area, clubhouse, and accommodation block — part of broader regeneration aims.',
       ],
     },
   ],
@@ -1023,6 +1127,233 @@ export const topicDiversePlaces = {
       q: 'What is "boosterism" in geography?',
       a: 'The deliberate promotion of a place to attract visitors, investment, or residents, emphasising positives and downplaying problems',
       options: ['A type of economic growth model', 'The deliberate promotion of a place to attract visitors, investment, or residents, emphasising positives and downplaying problems', 'A community volunteering initiative', 'An EU funding programme for disadvantaged areas'],
+    },
+
+    // ======================================================================
+    // NEW QUIZ QUESTIONS — Human Bible PDF content
+    // ======================================================================
+
+    // --- London Immigration History ---
+    {
+      q: 'When were Jewish people first allowed to resettle in London?',
+      a: '1656 (having been expelled since 1290)',
+      options: ['1492', '1656 (having been expelled since 1290)', '1750', '1850'],
+    },
+    {
+      q: 'Which nationality was particularly attracted to London in the early/mid-19th century for infrastructure development work?',
+      a: 'Irish',
+      options: ['German', 'Irish', 'Chinese', 'Polish'],
+    },
+    {
+      q: 'Where was the Italian quarter located in 19th-century London?',
+      a: 'Clerkenwell',
+      options: ['Soho', 'Clerkenwell', 'Whitechapel', 'Bermondsey'],
+    },
+    {
+      q: 'What groups settled in London\'s East End in the late 19th century?',
+      a: 'Jewish refugees from Eastern Europe and a small Chinese community',
+      options: ['Irish dock workers and Italian traders', 'Jewish refugees from Eastern Europe and a small Chinese community', 'French Huguenots and Dutch merchants', 'Caribbean sugar workers and Indian sailors'],
+    },
+
+    // --- Social Clustering and Ethnic Villages ---
+    {
+      q: 'According to the Human Bible, which factor makes it MORE likely for a household to live in an area with high ethnic minority concentration?',
+      a: 'Not being fluent in English',
+      options: ['Having higher qualifications', 'Being in the highest social class', 'Not being fluent in English', 'Having more paid workers in the household'],
+    },
+    {
+      q: 'What is the German school in Richmond an example of?',
+      a: 'An ethnic village — a place showing clear evidence of an ethnic group through institutions and facilities',
+      options: ['A bilingual education programme', 'An ethnic village — a place showing clear evidence of an ethnic group through institutions and facilities', 'A government integration scheme', 'A private international school'],
+    },
+    {
+      q: 'The UK has the 2nd largest expatriate French population after which country?',
+      a: 'The USA',
+      options: ['Canada', 'Belgium', 'The USA', 'Switzerland'],
+    },
+
+    // --- South Asians in London ---
+    {
+      q: 'What percentage of all UK Asians live in the London area?',
+      a: '35%',
+      options: ['20%', '35%', '50%', '65%'],
+    },
+    {
+      q: 'What percentage of UK Bangladeshis live in London?',
+      a: '54%',
+      options: ['19%', '35%', '41%', '54%'],
+    },
+    {
+      q: 'How many Indians live in London, making it the UK\'s largest concentration?',
+      a: '437,000',
+      options: ['150,000', '275,000', '437,000', '600,000'],
+    },
+    {
+      q: 'What is notable about the Sikh community in Southall?',
+      a: 'It is the largest Sikh community in the world outside the Punjab in India',
+      options: ['It is the oldest Sikh community in Europe', 'It is the largest Sikh community in the world outside the Punjab in India', 'It has the only Sikh temple in London', 'It was the first Sikh community in the UK'],
+    },
+    {
+      q: 'How many weekly Punjabi newspapers are published in the Southall area?',
+      a: '3',
+      options: ['1', '3', '5', '7'],
+    },
+    {
+      q: 'In which London boroughs are Indian communities concentrated?',
+      a: 'Ealing, Brent, and Harrow',
+      options: ['Newham, Tower Hamlets, and Camden', 'Ealing, Brent, and Harrow', 'Walthamstow, Newham, and Ealing', 'Southwark, Lambeth, and Lewisham'],
+    },
+
+    // --- Jersey Additional Detail ---
+    {
+      q: 'When did large-scale immigration to Jersey begin, facilitated by which transport innovation?',
+      a: 'From 1823, with the introduction of steamships',
+      options: ['From 1750, with sailing packets', 'From 1823, with the introduction of steamships', 'From 1880, with railway connections', 'From 1950, with commercial aviation'],
+    },
+    {
+      q: 'How many English settlers had arrived in Jersey by 1840?',
+      a: 'Up to 5,000 (mostly half-pay officers and families)',
+      options: ['Up to 1,000', 'Up to 5,000 (mostly half-pay officers and families)', 'Up to 15,000', 'Up to 25,000'],
+    },
+    {
+      q: 'What is the St Helier ranking for population density among world capital cities?',
+      a: '11th most densely populated capital in the world',
+      options: ['5th most densely populated', '11th most densely populated capital in the world', '25th most densely populated', '50th most densely populated'],
+    },
+    {
+      q: 'Where did many of Jersey\'s Portuguese workers originally come from?',
+      a: 'Madeira',
+      options: ['Lisbon', 'The Azores', 'Madeira', 'Porto'],
+    },
+
+    // --- Economic Segregation ---
+    {
+      q: 'By how much have average London house prices risen per year since 1996?',
+      a: '11% per year',
+      options: ['5% per year', '8% per year', '11% per year', '15% per year'],
+    },
+    {
+      q: 'How much must someone invest in UK government bonds to obtain a 3-year investor visa?',
+      a: 'Over £1 million',
+      options: ['Over £250,000', 'Over £500,000', 'Over £1 million', 'Over £5 million'],
+    },
+    {
+      q: 'How many investor visas were offered to Russians between 2008 and 2013?',
+      a: '433',
+      options: ['150', '280', '433', '650'],
+    },
+    {
+      q: 'What percentage of pupils at HMC (Headmasters\' Conference) schools were Russian?',
+      a: '8%',
+      options: ['3%', '5%', '8%', '12%'],
+    },
+    {
+      q: 'How much can an investor pay to buy UK residency after 2 years?',
+      a: '£10 million',
+      options: ['£2 million', '£5 million', '£10 million', '£20 million'],
+    },
+
+    // --- Cultural/Demographic Issues ---
+    {
+      q: 'What percentage of Bangladeshi women were economically inactive in 2020?',
+      a: '54%',
+      options: ['32%', '42%', '54%', '67%'],
+    },
+    {
+      q: 'What percentage of Bangladeshis are in low-income employment?',
+      a: '65%',
+      options: ['30%', '50%', '65%', '80%'],
+    },
+    {
+      q: 'By how much did house prices in parts of London rise between 1995 and 2020?',
+      a: 'Up to 1,000%',
+      options: ['Up to 200%', 'Up to 500%', 'Up to 1,000%', 'Up to 2,000%'],
+    },
+    {
+      q: 'What percentage of monthly income do London households spend on housing?',
+      a: 'Up to 60% (compared to UK average of 25%)',
+      options: ['Up to 30% (UK average 15%)', 'Up to 45% (UK average 20%)', 'Up to 60% (compared to UK average of 25%)', 'Up to 80% (UK average 35%)'],
+    },
+    {
+      q: 'What percentage of people from ethnic minorities live in low-income households?',
+      a: 'About 40% (twice the White British rate)',
+      options: ['About 15%', 'About 25%', 'About 40% (twice the White British rate)', 'About 60%'],
+    },
+
+    // --- Managing Issues in London ---
+    {
+      q: 'What is the Discover Children\'s Forum in Stratford?',
+      a: 'A group of 21 children aged 4-11 involved in public art and consultation on the 73-hectare Stratford City Development',
+      options: ['A school governing body', 'A group of 21 children aged 4-11 involved in public art and consultation on the 73-hectare Stratford City Development', 'A youth sports league', 'A children\'s charity providing after-school care'],
+    },
+    {
+      q: 'What percentage of football audiences are made up of ethnic minorities?',
+      a: 'Only 1%',
+      options: ['Only 1%', '5%', '10%', '15%'],
+    },
+    {
+      q: 'How many girls receive football coaching through the Asians in Football project in Tower Hamlets?',
+      a: '350',
+      options: ['100', '200', '350', '500'],
+    },
+    {
+      q: 'What is East End Fair Finance modelled on?',
+      a: 'The Grameen Bank model — providing loans to those excluded by mainstream banks',
+      options: ['A government welfare scheme', 'The Grameen Bank model — providing loans to those excluded by mainstream banks', 'A credit union system', 'A crowdfunding platform'],
+    },
+    {
+      q: 'What is TELCO\'s Living Wage Campaign?',
+      a: 'An alliance of unions and faith groups that has forced financial institutions and public authorities to pay above minimum wage',
+      options: ['A government minimum wage increase', 'An alliance of unions and faith groups that has forced financial institutions and public authorities to pay above minimum wage', 'A charity providing emergency funds', 'A training programme for the unemployed'],
+    },
+    {
+      q: 'What does the Rich Mix cultural centre aim to achieve?',
+      a: 'Bridge between local population and creative industries in Hoxton, opening arts to new audiences and nurturing disadvantaged young talent',
+      options: ['Provide affordable housing for artists', 'Bridge between local population and creative industries in Hoxton, opening arts to new audiences and nurturing disadvantaged young talent', 'Run a community radio station', 'Offer English language classes'],
+    },
+
+    // --- Slough Redevelopment Detail ---
+    {
+      q: 'How large is the Langley Business Centre site being redeveloped in Slough?',
+      a: '6.5 hectares',
+      options: ['2.5 hectares', '4.0 hectares', '6.5 hectares', '10 hectares'],
+    },
+    {
+      q: 'How much floor space does the Langley data centre take up?',
+      a: '93,000 sqm',
+      options: ['25,000 sqm', '50,000 sqm', '93,000 sqm', '150,000 sqm'],
+    },
+    {
+      q: 'What was the original plan for Stoke Wharf before it became denser?',
+      a: '240 homes with shops, cafes, and a community hub',
+      options: ['150 homes with a school', '240 homes with shops, cafes, and a community hub', '400 homes with a park', '100 homes with offices'],
+    },
+    {
+      q: 'What former business occupied the Stoke Wharf site before redevelopment?',
+      a: 'Travis Perkins builder\'s yard',
+      options: ['A Tesco supermarket', 'Travis Perkins builder\'s yard', 'A Royal Mail sorting office', 'A car dealership'],
+    },
+
+    // --- Newham Additional ---
+    {
+      q: 'What does the Anglo-Saxon word "Ham" or "Hamme" mean, as in West Ham?',
+      a: 'Marsh',
+      options: ['Home', 'Marsh', 'Hill', 'Farm'],
+    },
+    {
+      q: 'What proportion of Newham\'s Upton and Kensington wards were of ethnic minority origin by 1981?',
+      a: 'More than half',
+      options: ['About one quarter', 'About one third', 'More than half', 'About three quarters'],
+    },
+    {
+      q: 'What transport achievement did Stratford gain from Olympic investment?',
+      a: 'It became the second most connected part of London after King\'s Cross',
+      options: ['It got London\'s first monorail', 'It became the second most connected part of London after King\'s Cross', 'It received a Heathrow Express link', 'It got the first driverless tube line'],
+    },
+    {
+      q: 'What did Lloyds TSB estimate the Olympics would generate in extra income for the UK economy?',
+      a: '£10 billion',
+      options: ['£5 billion', '£7 billion', '£10 billion', '£15 billion'],
     },
   ],
 };

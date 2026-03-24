@@ -46,6 +46,10 @@ export const topicGlobalisation = {
         { term: 'Offshoring', def: 'The relocation of a business process or entire production facility from one country to another, typically to reduce costs. Different from outsourcing because the company retains direct control.' },
         { term: 'Supply chain', def: 'The entire network of organisations, people, activities, information, and resources involved in creating and delivering a product from raw materials to the end consumer.' },
         { term: 'Comparative advantage', def: 'The theory (David Ricardo, 1817) that countries should specialise in producing goods where they have the lowest opportunity cost, then trade with others. Underpins the argument for free trade.' },
+        { term: 'Free trade area', def: 'A type of trade agreement where members abolish tariffs and quotas between themselves but maintain independent restrictions on imports from non-member countries.' },
+        { term: 'Customs union', def: 'A trade agreement where, besides free trade between member nations, all members are obliged to operate a common external tariff on imports from non-members.' },
+        { term: 'Common market', def: 'A customs union that also allows the free movement of labour and capital between member nations.' },
+        { term: 'Economic union', def: 'A trade agreement with all characteristics of a common market but also requires members to adopt common economic policies on matters such as transport, industry, and regional policy.' },
         { term: 'Bretton Woods', def: 'The 1944 conference in New Hampshire, USA, that established the post-WWII international monetary system, creating the IMF and World Bank. Set up fixed exchange rates pegged to the US dollar.' },
         { term: 'NIDL (New International Division of Labour)', def: 'The spatial rearrangement of production across the globe where manufacturing shifts to developing countries while HICs focus on services, R&D, and high-value activities.' },
       ],
@@ -70,6 +74,38 @@ export const topicGlobalisation = {
         'The internet and digital globalisation: Global e-commerce sales reached $5.8 trillion in 2023. Platforms like Amazon, Alibaba, and Shopify allow small businesses in LICs to access global markets. However, the "platform economy" concentrates profits in Silicon Valley while gig workers worldwide lack employment protections.',
         'Factors that keep places "switched off": Landlocked countries (e.g. Chad, Niger) lack access to shipping routes. Conflict zones (e.g. Yemen, Syria) deter investment. Authoritarian regimes (e.g. North Korea, Eritrea) restrict trade and information flows. Poor governance and corruption increase transaction costs, deterring FDI.',
         'Evaluation point: Globalisation is not a natural or inevitable process — it has been actively promoted by powerful institutions (IMF, World Bank, WTO) and governments (USA, UK) pursuing neoliberal ideology. This means it could potentially be reversed or reshaped, as seen in the "slowbalisation" trend since 2008.',
+
+        '--- NISSAN SUNDERLAND (TNC Investment Case Study) ---',
+        'The UK gave £100 million to Nissan to assist the development of a plant in Sunderland, helping to reduce unemployment in the region.',
+        'Initially in the 1980s, cars assembled at the Sunderland plant used Japanese parts. Over time, smaller UK firms bid and won contracts to supply Nissan. By 2016, 90% of parts used for Nissan cars made in the UK were sourced from UK companies, creating a significant multiplier effect.',
+        'In 2016, production at Nissan Sunderland increased by 14%, manufacturing 480,000 cars per year. 20% of output was for domestic sale, while 80% was exported to Europe and Asia.',
+        'At its peak, 5,000 people were employed at the Sunderland plant, making it the most efficient car plant in Europe. In 2011, Nissan invested a further £235 million into the plant.',
+        'Impact of the 2008 financial crisis on Nissan Sunderland: sales of cars made in Sunderland decreased by 26.7%, resulting in 1,200 employees being made redundant. In 2008 and 2009, remaining workers were asked to take a 2% pay cut.',
+
+        '--- EUROPEAN CAR INDUSTRY & SLOVAKIA ---',
+        'Labour costs in the UK are 5x higher than in Poland and even lower in Slovakia and Estonia. Eastern European countries typically work 40-42 hours per week compared to 35 hours in Germany.',
+        'Corporation tax rates vary significantly across the EU: Poland and Slovakia have a rate of just 19%, Estonia\'s is 0%, compared to the UK\'s 30% and Germany\'s 38%. Some argue low Eastern European rates are an unfair advantage only possible due to EU funding.',
+        'Between 2014-16, the European Commission provided \u20AC50 billion for new member nations\' motor industries, covering 20-50% of eligible investment costs for companies.',
+        'Slovakia has been referred to by Forbes as an "investment paradise" with the lowest cost base of new EU members. In 2014, VW was responsible for 25% of Slovakia\'s exports (250,000 cars), and VW has a 10-year tax concession in Slovakia.',
+        'Slovakia\'s car industry: Kia\'s new factory was an $870 million investment creating 3,000 jobs, with 7 Kia suppliers bringing total investment to $1.7 billion. A new Hyundai factory (2016) generates 200,000 cars per year and a new Peugeot factory exports 300,000 cars per year. Slovakia produced 850,000 cars per year as of 2017.',
+        'Slovakia, Czech Republic, and Hungary all have motor industries accounting for over 15% of their manufacturing output. 1/3 of German suppliers are located in Eastern Europe, and German manufacturers employ over 160,000 people in Eastern Europe.',
+        'The EU\'s free movement of goods and common external tariff make it high value to locate inside the EU. The EU accounts for 19% of world trade, 46% of outward FDI and 24% of inward FDI.',
+
+        '--- TRADE AGREEMENTS (Types & Impacts) ---',
+        'Types of trade agreements in order of increasing integration: free trade area (abolish internal tariffs), customs union (common external tariff), common market (free movement of labour and capital), economic union (common economic policies on transport, industry, and regional policy).',
+        'Benefits of trade agreements: less conflict and increased prosperity for members, international specialisation through comparative advantage, economies of scale, increased productivity, reduced prices for consumers, and breaking down domestic monopolies.',
+        'Drawbacks of trade agreements: trade diversion (importing from bloc members rather than cheaper suppliers elsewhere), creation of protectionist blocs against non-members, complicated global regulations, developing countries\' industries unable to compete with superior foreign industries, and poorer nations may produce goods for other markets not reflecting internal demand (e.g. luxury car production in Slovakia).',
+
+        '--- SWITCHED-OFF WORLD (Factors keeping places disconnected) ---',
+        'Environment and climate change keep places switched off: increasing extreme weather, flooding and droughts combined with reliance on cash crops means climate change is felt most harshly in areas with rapid population growth, people living on floodplains and by the sea, and the economic pain of losing a harvest.',
+        'Political factors keeping places switched off: governments with no money face a cycle of poverty — a poor population means lower tax revenue, which means less spending on health, education and infrastructure improvements, further entrenching disconnection from global networks.',
+        'Physical geography keeps places switched off: landlocked nations and mountainous countries (e.g. Bolivia) find it hard to trade with the outside world. Countries like Mali and Chad are very arid and experience prolonged droughts, limiting economic potential.',
+        'Health and poverty keep places switched off: good health is often denied in extreme poverty due to malnutrition, lack of clean water and sanitation, and insufficient money for medical services. Diseases like malaria debilitate the population. Pandemics like HIV/AIDS have devastating effects — many southern African nations have a 20% HIV infection rate.',
+
+        '--- NEW EU MEMBER STATES (Eastern Europe Growth) ---',
+        'The "New 10" EU member states experienced an average of 4.2% economic growth between 2004-2014, estimated to increase to 4.5% per year going forward — roughly 2x the growth of pre-2004 members.',
+        'TNCs typically pay above average wages in new Eastern European countries, and governments maintain low unemployment benefits, meaning jobs in foreign TNCs are highly sought after by local workers.',
+        'Slovakia enjoys a strategic position with its Austrian border, giving it easy access to Western European markets — a key locational advantage alongside its low costs.',
       ],
     },
 
@@ -123,6 +159,25 @@ export const topicGlobalisation = {
         'Environmental consequences of global supply chains: A single cotton t-shirt requires 2,700 litres of water to produce. The fashion industry is responsible for 10% of global carbon emissions. "Fast fashion" brands like Shein ship 6,000+ new styles daily. E-waste (53.6 million tonnes in 2019) is often dumped in LICs like Ghana (Agbogbloshie) and Nigeria.',
         'The "elephant curve" (Branko Milanovic) — exam evaluation: The curve shows the global middle class (percentiles 50-60, largely China/India) and the top 1% gained most from globalisation between 1988-2008. The "losers" at percentiles 75-90 are the working/middle classes of HICs (USA, UK, France). This helps explain the rise of populist politics, Brexit, and Trump\'s election.',
         'Evaluation point: Whether globalisation is "good" or "bad" depends on scale, timeframe, and who you ask. It has lifted hundreds of millions out of poverty (especially in China) but widened inequality within many countries. It has connected cultures but threatens local identities. The 20-mark essay must weigh both sides with specific evidence.',
+
+        '--- SHELL / OGONI PEOPLE (Social Impact Case Study) ---',
+        'In 1990, Shell began exploring oil and natural gas fields in the Nigerian Delta, the native home of the Ogoni people. Poet Ken Saro-Wiwa led peaceful protests against Shell drilling on Ogoni land for 2 years.',
+        'Ken Saro-Wiwa and 9 other Ogoni members were arrested for "inciting a riot", found guilty and given death sentences. The following day they were executed, and their bodies were burned behind a police station — illustrating extreme consequences when local communities resist TNC operations.',
+
+        '--- GAP/NIKE SWEATSHOP DETAILS (Social Impact Case Study) ---',
+        '75% of people working in sweatshops are women. Many have children and work long hours for little pay, meaning their children see very little of their mothers and cannot be sent to school due to lack of money.',
+        'In Cambodia, 300+ garment workers were sacked after demanding their right to a living wage. A study showed workers received just $38 over a month when $60 was required to support themselves.',
+        'Less than 1% of total revenue received from a garment is shared between those who made it — illustrating the extreme value capture by TNCs at the top of the supply chain.',
+        'Young women selling GAP children\'s clothes have been arbitrarily fired and denied paid maternity leave. A 20-year-old woman lost her 7-month-old baby after being forced to work 100+ hour weeks while working on GAP jeans.',
+
+        '--- BHOPAL DISASTER — UNION CARBIDE (1984) ---',
+        'In December 1984, over 500,000 people were exposed to Methyl Isocyanate (MIC) gas and other chemicals at the Union Carbide pesticide plant in Bhopal, India. The immediate death toll was 2,200, but a government report later confirmed 3,800 deaths related to the gas leak.',
+        'Other estimates suggest 8,000 died within 2 weeks and a further 8,000 over the following years. A 2006 government document stated the leak caused 550,000 injuries, of which 40,000 were partially disabling and 4,000 were permanent and severe.',
+        'Short-term impacts of Bhopal: initial effects included coughing, vomiting, severe eye irritation and suffocation. Children and shorter people inhaled higher concentrations (200,000 children were exposed). Many people were trampled trying to escape. 17,000 people were treated in hospitals.',
+        'Environmental aftermath of Bhopal: bodies were dumped into the Narmada River. 2,000 buffalo, goats and other animals were collected and buried. Within days, leaves yellowed and fell off trees. Fishing became prohibited. The MIC and Sevin plants remain, with isolation material continuing to fall and spread.',
+        'Environmental legacy of Bhopal: the area around the plant was used for dumping hazardous chemicals. In 1982, wells near the plant had to be abandoned. In 1989, soil and water samples near and inside the plant were found to be toxic to fish. Soil and groundwater remain polluted.',
+        'Safety failures at Bhopal: MIC tank alarms had not been working for 4 years and had only 1 manual backup system (compared to a 4-stage safety system used in the US). The flare tower could only handle 1/4 of the gas that leaked and was out of order at the time. MIC was stored at 20°C when the manual advised 4.5°C. Carbon steel valves corroded when exposed to acid.',
+        'Bhopal punishment: In 1986, UCC proposed a settlement of $350 million. In 1989, an out-of-court settlement of $470 million was agreed — just 15% of the original $3 billion claim. By 2003, compensation was awarded to 550,000 injured people and 15,300 families of victims who died — averaging just $2,200 per family.',
       ],
     },
 
@@ -277,6 +332,10 @@ export const topicGlobalisation = {
         'Ethiopia\'s debt burden: Rapid infrastructure borrowing (much from China) pushed Ethiopia\'s national debt to approximately $47 billion by 2020. Ethiopia applied for debt restructuring under the G20 Common Framework in 2021. This illustrates concerns about debt-trap diplomacy.',
         'Challenges facing Ethiopia: Political instability (civil war in Tigray 2020-2022 killed hundreds of thousands), ethnic tensions, limited infrastructure outside major cities, drought and food insecurity (20+ million people needed food aid in 2022), and ongoing governance concerns.',
         'Ethiopia illustrates dependency theory: the country provides cheap labour and raw materials for global TNCs, while most profits flow back to foreign companies. The "value added" in garment assembly is minimal — Ethiopia captures only 2-3% of the final retail price of clothes.',
+        'Ethiopia farming crisis: farming accounts for 85% of the workforce and 45% of GDP, yet the agriculture sector is less productive per capita now than 20 years ago. Arable land is overcrowded, over-cultivated and under-maintained. Less than 3% of Ethiopia is forested, and at current rates Ethiopia will be completely deforested in 20 years.',
+        'Ethiopia famine vulnerability: over 90% of crops are watered by nature rather than irrigation systems. During droughts, farmers and nomadic herders sell their assets to buy food, meaning they have nothing for the next growing season. It can take 3-5 years for pastoral tribes to rebuild their herds.',
+        'Ethiopia rainfall dependency: rainfall is essential for non-irrigated agriculture across most of the country. Areas with low rainfall have high variability in annual rainfall, meaning high risk for farmers. Less than 50% of people have access to a safe water supply.',
+        'Ethiopia population and health: huge population growth — 7.7 children per woman in 1993 (down to 4 in 2020). Contraception used by only 5% of illiterate women vs 45% of women with secondary education. Ethiopia holds 1% of world population yet 1.5 million people have HIV — equalling 4% of the world\'s HIV sufferers.',
 
         '--- CHINA\'S BELT AND ROAD INITIATIVE (BRI) ---',
         'The Belt and Road Initiative (BRI, also known as "One Belt One Road") was launched by President Xi Jinping in 2013. It is the largest infrastructure project in history, with estimated investment of $1 trillion+ across 140+ countries.',
@@ -287,6 +346,20 @@ export const topicGlobalisation = {
         'The BRI is described by critics as neo-colonialism: China extracts resources (oil, minerals, agricultural land), employs Chinese rather than local workers on many projects, builds infrastructure that primarily serves Chinese trade interests, and gains geopolitical influence through debt leverage.',
         'Supporters argue the BRI is mutually beneficial: it provides infrastructure that accelerates development, creates construction jobs, connects landlocked countries to global trade, and offers an alternative to Western-dominated financial institutions (IMF/World Bank).',
 
+        '--- CHINA GLOBAL SHIFT — PROS (Detailed) ---',
+        'China\'s infrastructure: developed the world\'s largest highway network and a rail system of 100,000km. Its HSR doubled in length in the past decade, linking Beijing, Guangzhou, Shenzhen and Shanghai. Shanghai\'s maglev is the world\'s fastest train at 270km/h. 82 airports have been built, bringing the total to 250, with 8 of the world\'s top 12 airports in freight tonnage.',
+        'China\'s manufacturing dominance: China produces 1/2 of the world\'s clothes and microwaves, 2/3 of all shoes and photocopiers, and 1/3 of all mobile phones. The Chinese economy has averaged 9.2% growth per year for the past 30 years.',
+        'China\'s poverty reduction: 900 million people have been taken out of poverty between 1980 and 2020. Over 300 million people are now considered middle class (equal to the entire US population). Those living on less than $1/day reduced to under 6% of the population.',
+        'China\'s urban incomes: urban incomes have risen by 12% since 2006, now averaging $19,000 per year. Significant improvements in working conditions with typical jobs having 40-hour work weeks, paid holiday and travel expenses to visit family in rural areas.',
+        'China\'s education improvements: education is free and compulsory between ages 6-15. 94% of 15-year-olds are literate (up from 20% in 1950). 7.2 million new university graduates in 2020 (15x higher than 2015). However, there is a spending gap: $4,000 per pupil in urban areas vs just $350 per pupil in rural areas.',
+
+        '--- CHINA GLOBAL SHIFT — CONS (Detailed) ---',
+        'China\'s pollution: Beijing experiences frequent pollution alerts from coal-fired power stations. 70% of rivers and lakes are polluted. Water in 207 of the Yangtze\'s tributaries is not even fit for irrigation. 100 cities suffer from extreme water shortages and 360 million people lack access to safe drinking water.',
+        'China\'s acid rain problem: 30% of China experiences acid rain (50% of cities). The cost of acid rain — health, farming losses, environmental management — totals $13 billion per year. Chongqing tap water contains 80 of 1,010 forbidden toxins under Chinese law.',
+        'China\'s resource over-exploitation: resources do not match demand, so the Chinese government has sought additional resources in Africa and Latin America. The Amazon rainforest has been cleared in Ecuador for soya farming. Venezuela has agreed to drill in the rainforest for Chinese demand. China is in a long-running dispute over mineral rights in Greenland via Denmark.',
+        'China\'s land degradation: China has 22% of the world\'s population yet only 6.4% of land and 7.2% of farmland. 40% of farmland suffers from degradation due to urbanisation and industrialisation. Over 3 million hectares of arable farmland is polluted by heavy metals (12 million tonnes of grain was polluted in 2014 alone).',
+        'China\'s biodiversity loss: in 2015, WWF found China\'s terrestrial vertebrates had declined by 50% since 1970. WWF tracked over 2,400 populations of 700 animals and found that half had vanished in 45 years.',
+
         '--- GLOBAL SHIFT (Manufacturing Shift to Asia) ---',
         'The global shift describes the large-scale movement of manufacturing from Europe and North America to East and Southeast Asia since the 1970s. By 2010, China alone produced 25% of the world\'s manufactured goods.',
         'Key phases of the global shift: Japan industrialised first (1950s-1970s), followed by the "Asian Tigers" (South Korea, Taiwan, Hong Kong, Singapore — 1970s-1990s), then China (1980s-present), and now newer destinations like Vietnam, Bangladesh, Cambodia, and Ethiopia.',
@@ -294,6 +367,19 @@ export const topicGlobalisation = {
         'Deindustrialisation in the UK and USA: The UK lost 3.5 million manufacturing jobs between 1970 and 2020. Manufacturing fell from 25% of UK GDP to under 10%. Cities like Sheffield (steel), Birmingham (cars), and Sunderland (shipbuilding) were devastated. Social consequences included unemployment, poverty, depopulation, and health decline.',
         'The US "Rust Belt" experienced similar decline: Detroit\'s population fell from 1.8 million (1950) to 640,000 (2020). General Motors, Ford, and Chrysler cut hundreds of thousands of jobs. The region saw rising opioid addiction, crime, and political disillusionment — contributing to Trump\'s election in 2016.',
         'However, the global shift also created new opportunities in HICs: the growth of the service sector (financial services in London, tech in Silicon Valley), the creative and knowledge economies, and some reshoring of advanced manufacturing (e.g. Tesla\'s Gigafactories).',
+
+        '--- LEICESTER DEINDUSTRIALISATION CASE STUDY ---',
+        'Leicester deindustrialisation: in the 1920s, over 300,000 were employed in the textile mills, selling clothes across the UK and the British Empire. By the 1960s, textiles was still booming — all M&S knitwear was made in Leicester, and some factories employed over 6,000 staff.',
+        'Leicester in the 1960s: demand for workers kept rising, bringing immigrants from India, Pakistan and Uganda to Leicester in search of work. By the 1980s, Leicester saw a huge decline in manufacturing as clothes could be manufactured in China and exported to the UK much more cheaply.',
+        'Social impacts of UK deindustrialisation: there is a lack of investment and training to reskill workers, with many blaming governments for focusing investment on London. A lack of opportunities results in increased levels of crime, religious extremism and far-right groups.',
+        'Economic impacts of UK deindustrialisation: derelict buildings created by the global shift are expensive to demolish and difficult to access. Reduced employment results in lower tax revenue in the UK\'s poorest areas, meaning there is no money for reinvestment.',
+        'Environmental impacts of UK deindustrialisation: much of the derelict industrial land is contaminated from previous dumping of chemical waste, making redevelopment costly and complex.',
+
+        '--- AUSTRALIA AND GLOBALISATION ---',
+        'Australia has been a major winner from globalisation. Since 1970, its exports-to-imports ratio has risen by over 20%. A government report estimated that globalisation had created 400,000+ jobs in the past decade in Australia.',
+        'Benefits of globalisation for Australia: the free market has created new economic possibilities such as tribal art exportation, and Australia\'s resources sector has benefited enormously from Chinese demand for iron ore and coal.',
+        'Drawbacks of globalisation for Australia: Aboriginal people are highly disadvantaged. The welfare system in rural Aboriginal areas has been underfunded for decades. Vast areas of Aboriginal land have been sold to TNCs for mining and agriculture.',
+        'Cultural impact on Aboriginal Australians: the spread of English as the language of globalisation has severely reduced the odds of Aboriginal communities being able to keep their languages alive, threatening indigenous cultural heritage.',
         'The global shift is now evolving: as wages rise in China, production is shifting to cheaper locations (Vietnam, Bangladesh, Ethiopia). This is sometimes called the "China Plus One" strategy — companies diversifying supply chains beyond China, accelerated by COVID-19 and US-China trade tensions.',
         'Vietnam as the next manufacturing hub: Vietnam\'s exports grew from $15 billion (2001) to $371 billion (2022). Samsung\'s largest smartphone factory is in Vietnam (employing 100,000 workers). Nike produces 50% of its footwear in Vietnam. Vietnam\'s membership of ASEAN and multiple free trade agreements (including with the EU in 2020) make it attractive to TNCs.',
         'Bangladesh garment industry: World\'s second-largest garment exporter after China, with 4,500+ factories employing 4 million workers (80% women). Garments account for 84% of total exports. Minimum wage was $113/month (2023) — still among the lowest globally. The industry illustrates both the opportunities and exploitation of the global shift.',
@@ -352,6 +438,24 @@ export const topicGlobalisation = {
         'However, cultural globalisation is not one-directional: Korean pop (K-pop, BTS, Blackpink) has a massive global following. Bollywood produces more films annually than Hollywood. Japanese anime and manga are globally popular. Yoga, originating in India, is now practised worldwide. Cultural exchange goes both ways.',
         'Media and cultural globalisation: Social media platforms (Facebook — 3 billion users, YouTube — 2.5 billion, TikTok — 1.5 billion) spread cultural content globally and instantly. Netflix operates in 190+ countries and invests in local content (Korean drama Squid Game became a global phenomenon). The internet enables both cultural homogenisation and the sharing of diverse cultures.',
 
+        '--- NEWS CORP AND MEDIA CONTROL ---',
+        'News Corp ownership illustrates media concentration: it owns 101 newspapers across Australia, 4 UK papers, The New York Post, The Wall Street Journal, plus 8 daily and 15 weekly regional newspapers in the USA. It also owns a 33% share in Russia\'s largest financial newspaper (Vermoski).',
+        'News Corp also owns Fox News, 20th Century Fox and BSkyB. The rise of Donald Trump and the right wing of the Republican Party is strongly linked to News Corp\'s media control and influence over public opinion.',
+        '90% of the global music industry is owned by just 5 firms (EMI, Universal, AOL, Time Warner and Sony). Critics suggest such control by a narrow number of US-controlled TNCs leads to cultural imperialism and the domination of Western culture globally.',
+        'Cultural resistance examples: Iran in the 2000s banned Barbie dolls as they were seen as "un-Islamic". France and China have imposed limits on the amount of overseas culture which can be broadcast on radio and TV, protecting domestic cultural production.',
+        'Exporting "western culture" has had wider impacts: the success of China\'s disabled athletes at the 2012 and 2016 games has done much to forward disabled people\'s rights in China. Global movements like Greta Thunberg, BLM, and LGBTQ+ rights spread through globalised media.',
+
+        '--- ATTEMPTS TO CONTROL GLOBALISATION ---',
+        'Trade protectionism: if governments heavily subsidise production before dumping on the world market (as China did with steel in 2016), anti-free trade policies take hold as governments scramble to impose tariffs to protect their own markets. This is strictly against WTO rules.',
+        'Limiting immigration: in an age of mass immigration and falling travel costs, more people are on the move than at any time in human history. In areas where immigration is perceived to have undercut wages or overwhelmed welfare, populist anti-immigration policies have found significant traction (e.g. Trump\'s wall between USA and Mexico).',
+        'Censorship and post-truth: some governments view the free flow of ideas as dangerous. China significantly underplayed the "Arab Spring" in 2011 via government-controlled TV/news. Both Russia and China have been accused of developing "post-truth" — the spread of fake news designed to destabilise other nations.',
+
+        '--- NATIONALIST PARTIES ---',
+        'National Front (France): formed in 1972 to unify smaller nationalist movements. Gained fame in 2002 when many French voted for them as a protest. Received 13% of votes in recent elections. Anti-immigration, called for the breakup of the EU, has strong anti-Islamic themes.',
+        'Golden Dawn (Greece): commonly described as a "neo-Nazi" or "fascist" party, using symbols similar to the Nazis. The group is openly racist and xenophobic. Held 22 of 703 seats in Greek regional councils. Saw rising popularity since the 2000s (7% polling during the Greek currency crisis). In 2020, Athens court of appeals found 68 members guilty of criminal activities.',
+        'Republican Party Tea Party element (USA): fiscally conservative, anti-immigration, libertarian group campaigning for a smaller state and low-to-zero immigration. Best represented by Trumpism — policies included the border wall, banning flights from Middle Eastern states, separating children from parents in illegal immigration cases, removing climate policy support, and tariff battles with China.',
+        'Conservative Government (UK): while not extreme, the UK has shifted to right/centre-right policies. Brexit was the most notable policy — leaving the EU to make independent trade deals. Immigration policy shifted to skills-based applications over open borders. Commentators suggest this was a deliberate move to collect votes from UKIP supporters.',
+
         '--- MIGRATION (Polish Migration to UK post-2004) ---',
         'When Poland and seven other Eastern European countries (the "A8") joined the EU on 1 May 2004, the UK was one of only three existing EU members (with Ireland and Sweden) to grant immediate free movement rights. The UK government predicted 5,000-13,000 Polish migrants per year. The actual figure was vastly higher.',
         'By 2011, the Polish-born population in the UK had reached approximately 700,000, making Poles the largest foreign-born group in the UK. By 2017, the figure exceeded 900,000. Polish became the most commonly spoken non-English language in England and Wales.',
@@ -362,6 +466,11 @@ export const topicGlobalisation = {
         'Brain drain in Poland: The emigration of young, educated Poles created labour shortages in Poland\'s own economy, particularly in healthcare and construction. However, Poland\'s economy has grown strongly since EU accession, and many Poles have returned ("brain circulation").',
         'Brexit impact: Following the Brexit referendum (2016) and the UK leaving the EU (2020), net Polish migration to the UK fell sharply. The Polish-born population in the UK decreased by approximately 100,000 between 2017 and 2021. The post-Brexit points-based immigration system ended free movement for EU citizens.',
         'Polish migration illustrates both the benefits and challenges of free movement of labour in a globalised world: economic gains for both countries, social and cultural enrichment, but also pressures on services, wage competition, and political backlash.',
+        'Specific Polish migration push factors (from PDF): average unemployment in Poland was 18.5% in 2005, youth unemployment was 40%, and rural unemployment was over 40%. Poland\'s GDP per capita was $12,700 vs the UK\'s $30,900.',
+        'Polish migration pull factors: UK unemployment was just 5.1%, with skill shortages and demand for skilled/semi-skilled labour. The UK was 1 of only 3 countries that did not restrict immigrants from the A8 countries.',
+        'Assistance to Polish migration: low-cost airlines provided regular flights from 9 Polish airports to 18 UK destinations. Regional employers sought cheap seasonal labour. Specialist agencies helped match skilled Polish workers with UK organisations.',
+        'Polish migration economic benefits: 0.5-1% of UK economic growth was attributed to Polish workers in 2006. Eastern European immigrants contributed £2.5 billion to the UK economy. 80% of migrants were aged 18-35, and their National Insurance contributions helped the UK cope with its ageing population.',
+        'Polish migration problems: exploitation of workers by unscrupulous employers. 427,000 migrant workers brought 36,000 dependants, 27,000 of whom had child benefit applications approved. A high proportion of wages left the UK through remittances to Poland.',
 
         '--- GLOBAL MIGRATION FLOWS ---',
         'Global migration statistics: 281 million international migrants in 2020 (3.6% of world population). The top destination countries are the USA (51 million), Germany (16 million), Saudi Arabia (13 million), Russia (12 million), and the UK (9 million). South-South migration (between developing countries) accounts for 40% of all international migration.',
@@ -1414,6 +1523,272 @@ export const topicGlobalisation = {
         '1981',
         '1991',
         '1998',
+      ],
+    },
+
+    // --- BHOPAL DISASTER Questions ---
+    {
+      q: 'In what year did the Bhopal disaster occur at the Union Carbide plant in India?',
+      a: '1984',
+      options: [
+        '1976',
+        '1984',
+        '1992',
+        '2001',
+      ],
+    },
+    {
+      q: 'How many people were exposed to toxic gas in the Bhopal disaster?',
+      a: 'Over 500,000',
+      options: [
+        'Over 50,000',
+        'Over 150,000',
+        'Over 500,000',
+        'Over 1 million',
+      ],
+    },
+    {
+      q: 'What was the final out-of-court settlement for the Bhopal disaster, and what percentage of the original claim was it?',
+      a: '$470 million — just 15% of the original $3 billion claim',
+      options: [
+        '$100 million — 3% of the original claim',
+        '$470 million — just 15% of the original $3 billion claim',
+        '$1.5 billion — 50% of the original claim',
+        '$3 billion — the full original claim',
+      ],
+    },
+    {
+      q: 'How long had the MIC tank alarms at the Bhopal plant not been working before the disaster?',
+      a: '4 years',
+      options: [
+        '6 months',
+        '1 year',
+        '4 years',
+        '10 years',
+      ],
+    },
+
+    // --- LEICESTER DEINDUSTRIALISATION Questions ---
+    {
+      q: 'How many people were employed in Leicester\'s textile mills in the 1920s?',
+      a: 'Over 300,000',
+      options: [
+        'Over 50,000',
+        'Over 150,000',
+        'Over 300,000',
+        'Over 500,000',
+      ],
+    },
+    {
+      q: 'Which major retailer had all its knitwear made in Leicester in the 1960s?',
+      a: 'Marks & Spencer (M&S)',
+      options: [
+        'Primark',
+        'Marks & Spencer (M&S)',
+        'Next',
+        'Debenhams',
+      ],
+    },
+    {
+      q: 'What caused Leicester\'s textile decline in the 1980s?',
+      a: 'Clothes could be manufactured much more cheaply in China and exported to the UK',
+      options: [
+        'A major fire destroyed most of the textile mills',
+        'The government banned textile manufacturing in urban areas',
+        'Clothes could be manufactured much more cheaply in China and exported to the UK',
+        'Workers went on prolonged strikes that shut down production',
+      ],
+    },
+
+    // --- AUSTRALIA GLOBALISATION Questions ---
+    {
+      q: 'How many jobs has globalisation created in Australia according to a government report?',
+      a: '400,000+ jobs in the past decade',
+      options: [
+        '50,000+ jobs in the past decade',
+        '150,000+ jobs in the past decade',
+        '400,000+ jobs in the past decade',
+        '1 million+ jobs in the past decade',
+      ],
+    },
+    {
+      q: 'How has globalisation negatively affected Aboriginal communities in Australia?',
+      a: 'Vast areas of Aboriginal land have been sold to TNCs, welfare has been underfunded, and the spread of English threatens Aboriginal languages',
+      options: [
+        'Aboriginal communities have been forcibly relocated to cities',
+        'Vast areas of Aboriginal land have been sold to TNCs, welfare has been underfunded, and the spread of English threatens Aboriginal languages',
+        'Aboriginal people have been banned from participating in global trade',
+        'Globalisation has had no significant impact on Aboriginal communities',
+      ],
+    },
+
+    // --- POLISH MIGRATION SPECIFIC STATS Questions ---
+    {
+      q: 'What was the average unemployment rate in Poland in 2005, driving emigration to the UK?',
+      a: '18.5%',
+      options: [
+        '5.1%',
+        '12%',
+        '18.5%',
+        '25%',
+      ],
+    },
+    {
+      q: 'What was the youth unemployment rate in Poland that pushed young Poles to migrate to the UK?',
+      a: '40%',
+      options: [
+        '15%',
+        '25%',
+        '40%',
+        '55%',
+      ],
+    },
+    {
+      q: 'How much did Eastern European immigrants contribute to the UK economy?',
+      a: '£2.5 billion',
+      options: [
+        '£500 million',
+        '£1.2 billion',
+        '£2.5 billion',
+        '£5 billion',
+      ],
+    },
+
+    // --- GLOBAL CULTURE & MEDIA Questions ---
+    {
+      q: 'What percentage of the global music industry is owned by just 5 firms?',
+      a: '90%',
+      options: [
+        '50%',
+        '70%',
+        '90%',
+        '99%',
+      ],
+    },
+    {
+      q: 'How many newspapers does News Corp own across Australia?',
+      a: '101',
+      options: [
+        '15',
+        '45',
+        '101',
+        '250',
+      ],
+    },
+    {
+      q: 'Which country banned Barbie dolls in the 2000s as they were seen as "un-Islamic"?',
+      a: 'Iran',
+      options: [
+        'Saudi Arabia',
+        'Iran',
+        'Pakistan',
+        'Afghanistan',
+      ],
+    },
+
+    // --- NATIONALIST PARTIES Questions ---
+    {
+      q: 'When was the National Front in France formed?',
+      a: '1972',
+      options: [
+        '1952',
+        '1972',
+        '1988',
+        '2002',
+      ],
+    },
+    {
+      q: 'What percentage of votes did the National Front receive in recent French elections?',
+      a: '13%',
+      options: [
+        '5%',
+        '13%',
+        '25%',
+        '35%',
+      ],
+    },
+    {
+      q: 'What happened to Golden Dawn members in Greece in 2020?',
+      a: 'Athens court of appeals announced guilty verdicts on 68 members following a police investigation into criminal activities',
+      options: [
+        'They won a majority in parliament',
+        'Athens court of appeals announced guilty verdicts on 68 members following a police investigation into criminal activities',
+        'The party was officially dissolved by the Greek government',
+        'They merged with the ruling party',
+      ],
+    },
+
+    // --- CHINA GLOBAL SHIFT SPECIFIC Questions ---
+    {
+      q: 'How many people were taken out of poverty in China between 1980 and 2020?',
+      a: '900 million',
+      options: [
+        '300 million',
+        '500 million',
+        '900 million',
+        '1.2 billion',
+      ],
+    },
+    {
+      q: 'What percentage of China\'s rivers and lakes are polluted?',
+      a: '70%',
+      options: [
+        '30%',
+        '50%',
+        '70%',
+        '90%',
+      ],
+    },
+    {
+      q: 'How many people in China lack access to safe drinking water?',
+      a: '360 million',
+      options: [
+        '50 million',
+        '150 million',
+        '360 million',
+        '600 million',
+      ],
+    },
+    {
+      q: 'What is the annual cost of acid rain in China (health, farming losses, environmental management)?',
+      a: '$13 billion per year',
+      options: [
+        '$2 billion per year',
+        '$7 billion per year',
+        '$13 billion per year',
+        '$25 billion per year',
+      ],
+    },
+
+    // --- ETHIOPIA DEVELOPMENT Questions ---
+    {
+      q: 'What percentage of Ethiopia\'s workforce is employed in farming?',
+      a: '85%',
+      options: [
+        '45%',
+        '65%',
+        '85%',
+        '95%',
+      ],
+    },
+    {
+      q: 'What percentage of Ethiopia is currently forested?',
+      a: 'Less than 3%',
+      options: [
+        'Less than 3%',
+        'About 15%',
+        'About 30%',
+        'About 50%',
+      ],
+    },
+    {
+      q: 'What was the fertility rate in Ethiopia in 1993 compared to 2020?',
+      a: '7.7 children per woman in 1993, falling to 4 in 2020',
+      options: [
+        '3.2 in 1993, falling to 1.8 in 2020',
+        '5.0 in 1993, falling to 3.0 in 2020',
+        '7.7 children per woman in 1993, falling to 4 in 2020',
+        '10 children per woman in 1993, falling to 6 in 2020',
       ],
     },
   ],
