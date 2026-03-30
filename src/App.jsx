@@ -6,7 +6,7 @@ import {
   Trophy, Target, Menu, Home, ArrowRight, Clock, Star, TrendingUp,
   ChevronDown, ChevronUp, Search, Layers, GraduationCap, BarChart3, PlayCircle,
   PauseCircle, RefreshCw, Award, FileText, Eye, EyeOff, ExternalLink, Youtube, Video,
-  Moon, Sun
+  Moon, Sun, Map
 } from 'lucide-react';
 import HomeView from './components/HomeView';
 import TopicHub from './components/TopicHub';
@@ -17,6 +17,7 @@ import ExamView from './components/ExamView';
 import FlashcardsView from './components/FlashcardsView';
 import TimerView from './components/TimerView';
 import StatsView from './components/StatsView';
+import MindmapView from './components/MindmapView';
 import './App.css';
 
 // ============================================================
@@ -275,6 +276,7 @@ export default function App() {
     { v: 'flashcards', label: 'Flashcards', icon: <Layers size={16} /> },
     { v: 'quiz', label: 'Quiz', icon: <Brain size={16} /> },
     { v: 'timer', label: 'Timer', icon: <Timer size={16} /> },
+    { v: 'mindmaps', label: 'Mindmaps', icon: <Map size={16} /> },
     { v: 'stats', label: 'Stats', icon: <BarChart3 size={16} /> },
   ];
 
@@ -383,6 +385,7 @@ export default function App() {
         {view === 'exam' && selectedTopic && (
           <ExamView topic={selectedTopic} navigateTo={navigateTo} showXPToast={showXPToast} />
         )}
+        {view === 'mindmaps' && <MindmapView navigateTo={navigateTo} />}
         {view === 'flashcards' && <FlashcardsView navigateTo={navigateTo} showXPToast={showXPToast} />}
         {view === 'timer' && <TimerView />}
         {view === 'stats' && <StatsView />}
