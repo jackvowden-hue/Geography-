@@ -138,11 +138,14 @@ function MindmapSVG({ question, activeBranch, onSelectBranch, zoom, pan }) {
 
   const centerLines = (question.center || question.title || '').split('\n');
 
-  // Compute the viewBox based on zoom and pan
-  const vbW = width / zoom;
-  const vbH = height / zoom;
-  const vbX = (width - vbW) / 2 - pan.x / zoom;
-  const vbY = (height - vbH) / 2 - pan.y / zoom;
+  // Compute the viewBox — centered with extra space for radiating points
+  const padding = 200;
+  const baseW = width + padding * 2;
+  const baseH = height + padding * 2;
+  const vbW = baseW / zoom;
+  const vbH = baseH / zoom;
+  const vbX = -padding + (baseW - vbW) / 2 - pan.x / zoom;
+  const vbY = -padding + (baseH - vbH) / 2 - pan.y / zoom;
 
   return (
     <svg
@@ -237,18 +240,20 @@ function MindmapSVG({ question, activeBranch, onSelectBranch, zoom, pan }) {
               </text>
             )}
 
-            {/* Expanded points radiating outward when active */}
-            {isActive && points.map((point, pi) => {
-              const spread = Math.min(0.15, 0.8 / points.length);
-              const splay = (pi - (points.length - 1) / 2) * spread;
+            {/* Expanded points radiating outward when active — truncated labels */}
+            {isActive && points.slice(0, 8).map((point, pi) => {
+              const maxPts = Math.min(points.length, 8);
+              const spread = Math.min(0.18, 0.9 / maxPts);
+              const splay = (pi - (maxPts - 1) / 2) * spread;
               const pAngle = pointAngle + splay;
-              const pointDist = 95 + pi * 24;
+              const pointDist = 55 + pi * 16;
               const px = bx + Math.cos(pAngle) * pointDist;
               const py = by + Math.sin(pAngle) * pointDist;
               const connX = bx + Math.cos(pAngle) * (nodeWidth / 2);
               const connY = by + Math.sin(pAngle) * (nodeHeight / 2);
 
-              const textLines = wrapText(point, 30);
+              // Truncate to short label for SVG — full text in detail panel
+              const label = point.length > 45 ? point.substring(0, 42) + '…' : point;
               const textAnchor = Math.cos(pAngle) >= 0 ? 'start' : 'end';
               const textOffX = Math.cos(pAngle) >= 0 ? 10 : -10;
 
@@ -263,20 +268,17 @@ function MindmapSVG({ question, activeBranch, onSelectBranch, zoom, pan }) {
                     strokeDasharray="4 3"
                   />
                   <circle cx={px} cy={py} r="4.5" fill={branch.color} opacity="0.8" />
-                  {textLines.map((tl, tli) => (
-                    <text
-                      key={tli}
-                      x={px + textOffX}
-                      y={py + 4 + tli * 14}
-                      textAnchor={textAnchor}
-                      fill="var(--mm-text-color, #e0e0e0)"
-                      fontSize="10.5"
-                      fontFamily="inherit"
-                      fontWeight="500"
-                    >
-                      {tl}
-                    </text>
-                  ))}
+                  <text
+                    x={px + textOffX}
+                    y={py + 4}
+                    textAnchor={textAnchor}
+                    fill="var(--mm-text-color, #e0e0e0)"
+                    fontSize="9.5"
+                    fontFamily="inherit"
+                    fontWeight="500"
+                  >
+                    {label}
+                  </text>
                 </g>
               );
             })}
