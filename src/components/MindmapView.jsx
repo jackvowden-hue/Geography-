@@ -428,7 +428,7 @@ function DetailPanel({ branch, branchIndex, question, onClose }) {
         {/* Quick stats bar */}
         <div className="mm-detail-stats-bar">
           <span className="mm-detail-stat-chip">
-            <BarChart2 size={12} /> {points.length} points
+            <BarChart2 size={12} /> {categorized.length} points
           </span>
           {grouped['stat'] && (
             <span className="mm-detail-stat-chip mm-detail-stat-chip--stat">
